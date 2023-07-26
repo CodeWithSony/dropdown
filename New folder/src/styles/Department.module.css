@@ -1,0 +1,43 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 175px;
+    margin: 3rem auto;
+}
+
+.departmentHeading{
+color: var(--background-typography-303030, #303030);
+/* Desktop/Medium */
+font-family: Manrope;
+font-size: 12px;
+font-style: normal;
+font-weight: 350;
+line-height: normal;
+}
+
+.departmentOption{
+    /* Desktop/Regular */
+    font-family: Manrope;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    
+    color: black;
+    
+    width: 175px;
+    height: 26px;
+    flex-shrink: 0;
+    
+    border-radius: 5px;
+    border: 1px solid var(--primary-369-fff, #369FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.departmentOption:hover{
+    color: var(--primary-369-fff, #369FFF);
+
+}
